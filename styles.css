@@ -1,0 +1,58 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.game-container{
+    width: 90%;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+.botes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+.bote{
+    width: 100px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bote img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.basura-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.basura-item{
+    width: 80px;
+    cursor: grab;
+    margin: 10px;
+                                        
+    
+}
+.next-btn {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
